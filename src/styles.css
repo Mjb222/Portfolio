@@ -16,16 +16,20 @@ h1 {
   font-size: 48px;
   margin-top: 60px;
   margin-bottom: 0;
+  line-height: 1.5;
 }
 h2 {
   font-family: "Alata", sans-serif;
   font-size: 26px;
   margin: 0;
+  line-height: 1.5;
 }
 h3 {
+  font-family: "Alata", sans-serif;
   font-size: 24px;
   margin: 0;
   margin-bottom: 20px;
+  line-height: 1.5;
 }
 h7 {
   text-align: center;
@@ -87,5 +91,31 @@ h7 {
 .back:visited {
   color: var(--primary-color);
 }
-.upper {
+.project-description {
+  padding: 120px 60px;
+}
+.launch-buttons {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+    display: block;
+  }
+  h1 h2 h3 {
+    text-align: center;
+    display: block;
+  }
+  .launch-buttons {
+    text-align: center;
+    display: block;
+    margin: 30px;
+  }
 }
