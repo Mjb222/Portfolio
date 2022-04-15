@@ -5,6 +5,9 @@
   --secondary-color: white;
   --branding-color: rgb(211, 176, 211);
 }
+body {
+  background-color: rgb(221, 218, 168);
+}
 
 body {
   margin: 60px auto;
