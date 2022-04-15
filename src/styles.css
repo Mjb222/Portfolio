@@ -6,7 +6,7 @@
   --branding-color: rgb(211, 176, 211);
 }
 body {
-  background-color: rgb(221, 218, 168);
+  background-color: rgb(235, 212, 196);
 }
 
 body {
@@ -105,6 +105,9 @@ h7 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+.about-section {
+  text-align: center;
 }
 @media (max-width: 960px) {
   .project-description {
