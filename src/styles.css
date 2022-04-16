@@ -112,6 +112,9 @@ h7 {
 .about-container {
   padding: 160px 20px;
 }
+.content {
+  text-align: center;
+}
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
