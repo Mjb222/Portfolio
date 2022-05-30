@@ -2,11 +2,11 @@
 
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: white;
+  --secondary-color: rgb(211, 72, 72);
   --branding-color: rgb(211, 176, 211);
 }
 body {
-  background-color: rgb(235, 212, 196);
+  background-color: #ffffff;
 }
 
 body {
@@ -124,7 +124,7 @@ h7 {
   text-align: center;
 }
 nav {
-  padding: 20px 0;
+  padding: 10px;
 }
 nav ul {
   padding: 0;
